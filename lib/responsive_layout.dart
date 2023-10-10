@@ -20,7 +20,7 @@ class _ResponsiveLayoutChild extends State<ResponsiveLayout>{
         if(constraint.maxWidth <= 600){
           return const MobileHomeScreen();
         }else{
-          return const WebHomeBodyScreen();
+          return WebHomeBodyScreen();
         }
       },
 
